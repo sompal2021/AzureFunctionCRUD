@@ -1,0 +1,30 @@
+GET
+
+https://funapp1111.azurewebsites.net/api/product?
+
+
+Post
+
+https://funapp1111.azurewebsites.net/api/product?
+{
+"name":"CMS Book",
+"description":"",
+"unitPrice":250.0,
+"categoryId":0
+}
+
+Delete
+
+https://funapp1111.azurewebsites.net/api/product/{Id}?
+
+
+Put
+
+https://funapp1111.azurewebsites.net/api/product/{Id}?
+
+{
+"name":"CMS Book",
+"description":"",
+"unitPrice":250.0,
+"categoryId":0
+}
